@@ -1,0 +1,29 @@
+﻿@model MVCTest.workout
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>workout</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.taskName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.taskName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.workout1.userName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.workout1.userName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

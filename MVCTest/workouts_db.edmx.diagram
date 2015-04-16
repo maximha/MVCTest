@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="07e74853e851452fa8e5a0043dff25a8" Name="Diagram1">
+        <EntityTypeShape EntityType="social_workout_app_dbModel.task" Width="1.5" PointX="3.125" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="social_workout_app_dbModel.user" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="social_workout_app_dbModel.workout" Width="1.5" PointX="8.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="social_workout_app_dbModel.workout1" Width="1.5" PointX="5.125" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="social_workout_app_dbModel.taskName" ManuallyRouted="false" />
+        <AssociationConnector Association="social_workout_app_dbModel.userName" ManuallyRouted="false" />
+        <AssociationConnector Association="social_workout_app_dbModel.workoutName" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
